@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,600&family=Poppins:wght@700&display=swap");
+
+/* colors */
+:root {
+  --Pink: hsl(322, 100%, 66%);
+  --Light-Pink: hsl(321, 100%, 78%);
+  --Light-Red: hsl(0, 100%, 63%);
+
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--Very-Dark-Cyan);
+}
+
+.navbar {
+  padding: 80px 80px;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+
+div .btn-free {
+  color: var(--Pink);
+  border: 1px solid var(--Pink);
+  padding: 10px 30px;
+  font-size: 16px;
+  box-shadow: 0 0 10px hsla(322, 100%, 66%, 0.3);
+  transition: all 0.4s;
+}
+
+.btn-free:hover {
+  background-color: hsla(322, 100%, 66%, 0.6);
+  border: transparent;
+  padding: 11px 31px;
+  color: #fff;
+}
+
+/* Showcase */
+
+.showcase {
+  height: 1750px;
+}
+
+.showcase .flex {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hero-header {
+  padding: 150px 50px 100px 50px;
+}
+
+.hero-header p {
+  font-size: 21px;
+  padding: 20px 350px;
+}
+
+.hero-header h1 {
+  font-size: 50px;
+}
+
+.showcase .btn-main {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--Pink);
+  padding: 30px 110px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.1s;
+}
+
+.btn-main:active {
+  transform: translateY(1px);
+  box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.hero-stats img {
+  width: 17%;
+}
+
+.hero-stats h3 {
+  font-size: 95px;
+  font-weight: 700;
+}
+
+.hero-stats p {
+  color: var(--Very-Dark-Cyan);
+  font-size: 25px;
+  opacity: 0.6;
+}
+
+.feature-community {
+  background-color: var(--Very-Pale-Blue);
+}
+
+.feature-community .container {
+  padding: 60px 100px;
+}
+
+.feature-community .grid {
+  gap: 120px;
+}
+
+.bg-top-b {
+  background-color: #fff;
+}
+
+.bg-top-b img {
+  display: flex;
+  width: 100%;
+}
+
+.feature-community__text h1 {
+  font-size: 42px;
+}
+
+.feature-community__text p {
+  font-size: 17px;
+}
+
+.feature-community__img {
+  width: 98%;
+}
+
+.bg-bottom-b img {
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+}

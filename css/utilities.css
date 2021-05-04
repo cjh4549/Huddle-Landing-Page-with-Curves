@@ -1,0 +1,51 @@
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 25%;
+  grid-gap: 320px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* margins */
+
+.mt {
+  margin-top: 25px;
+}
+
+.mb {
+  margin-bottom: 25px;
+}
