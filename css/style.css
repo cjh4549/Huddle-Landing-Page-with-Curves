@@ -98,6 +98,8 @@ div .btn-free {
   opacity: 0.6;
 }
 
+/* Features community */
+
 .feature-community {
   background-color: var(--Very-Pale-Blue);
 }
@@ -110,24 +112,15 @@ div .btn-free {
   gap: 120px;
 }
 
-.bg-top-b {
-  background-color: #fff;
-}
-
-.bg-top-b img {
-  display: flex;
-  width: 100%;
-}
-
-.feature-community__text h1 {
+.feature__text h1 {
   font-size: 42px;
 }
 
-.feature-community__text p {
+.feature__text p {
   font-size: 17px;
 }
 
-.feature-community__img {
+.feature__img {
   width: 98%;
 }
 
@@ -135,4 +128,59 @@ div .btn-free {
   display: flex;
   background-color: #fff;
   width: 100%;
+}
+
+.bg-top-b img {
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+}
+
+/* conversation */
+
+.feature-conversations .grid {
+  gap: 120px;
+  height: 100%;
+}
+
+.feature-conversations {
+  height: 700px;
+}
+
+.feature-conversations .container {
+  padding: 60px 100px;
+}
+
+.feature-conversations .feature__text {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.bg-top-b2 img {
+  display: flex;
+  width: 100%;
+}
+
+.bg-bottom-b2 img {
+  display: flex;
+  width: 100%;
+}
+
+/* user */
+
+.feature-user {
+  background-color: var(--Very-Pale-Blue);
+}
+
+.feature-user .container {
+  padding: 40px 100px 60px 100px;
+}
+
+.feature-user .grid {
+  gap: 120px;
+  height: 100%;
+}
+
+.feature-user .img {
+  width: 98%;
 }
