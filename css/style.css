@@ -69,7 +69,7 @@ div .btn-free {
   font-size: 50px;
 }
 
-.showcase .btn-main {
+.btn-main {
   font-size: 20px;
   font-weight: bold;
   background-color: var(--Pink);
@@ -183,4 +183,36 @@ div .btn-free {
 
 .feature-user .img {
   width: 98%;
+}
+
+/* signup */
+
+.signup {
+  height: 600px;
+}
+
+.signup .flex {
+  flex-direction: column;
+}
+
+.signup h1 {
+  font-size: 40px;
+}
+
+/* footer */
+
+footer {
+  height: 750px;
+  background-color: var(--Very-Dark-Cyan);
+  color: white;
+}
+
+.ft-top-curve img {
+  background-color: white;
+  width: 100%;
+}
+
+footer .grid {
+  gap: 150px;
+  color: var(--Very-Pale-Blue);
 }
