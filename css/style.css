@@ -29,7 +29,7 @@ body {
   justify-content: space-between;
 }
 
-div .btn-free {
+.btn-free {
   color: var(--Pink);
   border: 1px solid var(--Pink);
   padding: 10px 30px;
@@ -215,4 +215,45 @@ footer {
 footer .grid {
   gap: 150px;
   color: var(--Very-Pale-Blue);
+}
+
+.sns {
+  position: relative;
+  top: 100px;
+  left: 120px;
+}
+
+.sns i {
+  margin-right: 20px;
+}
+
+.sns p:nth-of-type(3) {
+  margin-top: 15px;
+}
+
+.sns p:not(:nth-of-type(1)) {
+  font-size: 17px;
+}
+
+footer .container div p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.sns p:nth-of-type(1) {
+  padding-right: 320px;
+}
+
+.newsletter {
+  position: relative;
+  top: 60px;
+}
+
+.newsletter h2 {
+  text-transform: uppercase;
+}
+
+.newsletter p {
+  margin-top: 20px;
+  padding-right: 300px;
 }

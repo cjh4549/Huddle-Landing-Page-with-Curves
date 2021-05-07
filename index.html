@@ -36,7 +36,7 @@
     <header class="navbar">
       <div class="container flex">
         <h1 class="logo"><img src="/images/logo.svg" alt="logo" /></h1>
-        <button class="btn btn-free">
+        <button class="btn-free btn">
           <a href="index.html">Try It Free</a>
         </button>
       </div>
@@ -180,11 +180,13 @@
               </g>
             </svg>
           </h2>
-          <p>
+          <p class="mt">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
             nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
           </p>
-          <p><i class="fa fa-phone-alt fa-1g"></i>Phone: +1-543-123-4567</p>
+          <p class="mt">
+            <i class="fa fa-phone-alt fa-1g"></i>Phone: +1-543-123-4567
+          </p>
           <p>
             <i class="fa fa-envelope-open-text fa-1g"></i>example@huddle.com
           </p>
@@ -192,14 +194,13 @@
         <div class="newsletter">
           <h2>Newsletter</h2>
           <p>
-            To recieve tips on how to grow your community, sign up to our weekly
+            To receive tips on how to grow your community, sign up to our weekly
             newsletter. We’ll never send you spam or pass on your email address
           </p>
           <form action="">
-            <input type="text" required />
-            <input type="submit" placeholder="Subscribe" />
+            <input type="email" name="email" required />
+            <input type="submit" value="Subscribe" />
           </form>
-          Subscribe
         </div>
       </div>
     </footer>
