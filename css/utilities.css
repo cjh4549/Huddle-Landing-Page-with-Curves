@@ -26,6 +26,11 @@
   border-radius: 100px;
 }
 
+.btn:focus,
+.btn a:focus {
+  outline: none;
+}
+
 .heading {
   font-family: "Poppins", sans-serif;
 }

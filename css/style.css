@@ -246,7 +246,7 @@ footer .container div p {
 
 .newsletter {
   position: relative;
-  top: 60px;
+  top: 85px;
 }
 
 .newsletter h2 {
@@ -255,5 +255,29 @@ footer .container div p {
 
 .newsletter p {
   margin-top: 20px;
-  padding-right: 300px;
+  padding-right: 310px;
+}
+
+.form-control {
+  margin-top: 30px;
+}
+
+.form-control input:focus {
+  outline: none;
+}
+
+.form-control input[type="email"] {
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 48%;
+  border-radius: 5px;
+  margin-right: 25px;
+}
+
+.form-control input[type="submit"] {
+  padding: 15px 50px;
+  border-radius: 5px;
+  background-color: var(--Pink);
+  color: white;
+  font-size: 15px;
 }
